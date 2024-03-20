@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.container{
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100vh;
+}
+
+section{ /*CHILD*/
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+}
+h1{
+    color: White;
+    text-shadow: 1px 1px 2px black;
+    font-size: 80px;
+    font-weight: 400px;
+}
+.one{
+    background-image: linear-gradient(180deg, gold, #FFFDD0);
+    height: 100vh;
+}
+
+.two{
+    background-image: linear-gradient(180deg, #FFFDD0, beige);
+    height: 100vh;
+}
+
+.three{
+    background-image: linear-gradient(180deg, beige, gold);
+    height: 100vh;
+}
+
+.four{
+    background-color: gold;
+}
